@@ -1,0 +1,7 @@
+.tekst{
+    -fx-text-alignment: center;
+}
+
+.dugme{
+    -fx-padding: 5;
+}
