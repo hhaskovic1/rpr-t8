@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
-<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
     <stylesheets>
         <URL value="@izgled.css" />
     </stylesheets>
@@ -26,7 +26,7 @@
     <children>
         <Label prefHeight="21.0" prefWidth="82.0" styleClass="tekst" text=" Uzorak: " textAlignment="CENTER" />
         <TextField fx:id="word" onAction="#wordAction" prefHeight="31.0" prefWidth="130.0" GridPane.columnIndex="1" />
-        <Button fx:id="dugme" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#dugme" prefHeight="31.0" prefWidth="50.0" styleClass="dugme" text="Traži" GridPane.columnIndex="2" />
+        <Button fx:id="dugme" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#wordAction" prefHeight="31.0" prefWidth="50.0" styleClass="dugme" text="Traži" GridPane.columnIndex="2" />
         <ListView fx:id="list" onEditStart="#listAction" prefHeight="Infinity" prefWidth="Infinity" GridPane.columnSpan="4" GridPane.rowIndex="1" />
     </children>
 </GridPane>
